@@ -1,0 +1,33 @@
+.task__item_inner {
+  width: 500px;
+  position: relative;
+
+  .task_item__title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .task_item__text {
+    margin-bottom: 20px;
+  }
+
+  .task__item_isComplite {
+    margin-bottom: 30px;
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .task__delete_button {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-size: cover;
+    background-image: url(../../../public/trash.png);
+  }
+}
